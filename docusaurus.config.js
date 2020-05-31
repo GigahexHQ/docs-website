@@ -4,11 +4,11 @@ const rehypeTruncate = require("rehype-truncate");
 module.exports = {
   title: "Gigahex",
   tagline: "Monitor your Spark application",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://docs.gigahex.com",
   baseUrl: "/",
   favicon: "img/favicon.ico",
-  organizationName: "Gigahex", // Usually your GitHub org/user name.
-  projectName: "docs-website", // Usually your repo name.
+  organizationName: "Gigahex",
+  projectName: "docs-website",
 
   themeConfig: {
     disableDarkMode: true,
@@ -84,7 +84,6 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          // It is recommended to set document id as docs home page (`docs/` path).
           homePageId: "intro",
           sidebarPath: require.resolve("./sidebars.js"),
           remarkPlugins: [remarkImages],
