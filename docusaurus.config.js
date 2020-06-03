@@ -12,6 +12,15 @@ module.exports = {
 
   themeConfig: {
     disableDarkMode: true,
+    googleAnalytics: {
+      trackingID: "UA-130638312-2",
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
+    gtag: {
+      trackingID: "UA-130638312-2",
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     navbar: {
       title: "Gigahex",
       logo: {
